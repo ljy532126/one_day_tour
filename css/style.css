@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 978px;
+    height: auto;
+    margin: 0 auto;
+}
+.caise{
+
+    background-image: -webkit-linear-gradient(20deg,rgb(242, 226, 8),rgb(8, 162, 193)20%,rgb(230, 3, 3));
+    /*  */
+    -webkit-background-clip: text;
+    /* 文本颜色设置透明，将背景颜色显示出来 */
+    color: transparent;
+}
+.h2{
+    text-align: center;
+    color: #ffab0f;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.h2 span{
+    font-size: 45px;
+}
+.nav{
+    /* border: 1px solid red; */
+}
+/* logo */
+.logo{
+    float: left;
+}
+/* 右边导航栏 */
+.home{
+    float: right;
+    line-height: 52px;
+}
+.home a{
+    text-decoration: none;
+    color: #303030;
+}
+.home span{
+    margin: 0 4px;
+}
+hr{
+    margin-bottom: 10px;
+}
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.wrap img{
+    float: left;
+    margin: 2px 15px 10px 5px;
+}
+.wrap .text{
+    border: 1px solid red;
+    float: right;
+    /* display: contents; */
+}
+.green{
+    color: green;
+    font-weight: 550;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.orange{
+    color: #ffab0f;
+}
+.wrap p{
+    text-indent: 1em;
+}
+.message{
+    font-style: oblique;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+.text1{
+    text-indent: 2em;
+}
+.img2{
+    margin: 25px 0 15px 0;
+}
+.comment-box span{
+    color: #ffab0f;
+    padding: 8px;
+    /* border: 1px solid red; */
+}
+.comment img{
+    float: left;
+    margin-right: 5px;
+    /* border: 1px solid green; */
+}
+.font-12{
+    font-size: 12px;
+    display: block;
+
+}
+.comment p{
+    margin-top: 10px;
+    font-size: 13px;
+    /* background-color: #ffab0f; */
+    /* border: 1px solid blue; */
+
+}
+.comment time{
+    font-size: 12px;
+}
+.footer{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #0959a9;
+    font-size: 12px;
+    
+}
+.footer p{
+    margin: 6px 0;
+    font-size: 12px;
+}
